@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>About Us | Travel Nepal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!-- None of the codes were copied from the text book. I coded the script file from the scratch -->
+<body>
+    <div id="container">
+        <header>
+            <h3>Travel Nepal</h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./bucketlist.html">Bucket List</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+            </ul>
+            <span><a href="#quick_inquiry">Inquiry About a Trip</a></span>
+        </nav>
+        <main>
+            <div class="breadcrumb">
+                <p>YOU ARE HERE: <a href="./index.html">HOME</a> > ABOUT US</p>
+            </div>
+            <button id="go_to_top" title="Go to top">^</button>
+
+            <section id="aboutus_details_container">
+                <h1>About Us</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, consequuntur officia eum rerum
+                    harum culpa sit recusandae odio temporibus laborum, sapiente eligendi ex nihil earum perferendis
+                    similique cum. Impedit, sequi.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia alias, deleniti officia
+                    voluptatum impedit commodi at a ipsum reiciendis quidem fuga animi eius. Sapiente numquam, atque
+                    quam libero asperiores dolores.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi repellat, animi deserunt earum
+                    ullam aperiam. Corrupti, accusantium quibusdam aspernatur numquam alias molestiae nesciunt dicta
+                    deleniti. Iste incidunt consequatur unde?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem enim corrupti distinctio
+                    necessitatibus eveniet ab voluptatibus ducimus. Fuga assumenda nesciunt aliquid at earum alias quae
+                    cum voluptatum ut suscipit.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ea, necessitatibus labore, temporibus
+                    aperiam repellat tempore dolorem earum consequuntur odio sed. Molestias saepe ducimus quaerat quidem
+                    vel blanditiis, quibusdam amet!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, recusandae. Assumenda
+                    inventore consequuntur nostrum in dolores quo hic. Facilis facere quas consequuntur architecto ea
+                    quo soluta, quae eos dicta nam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolore a. Dolor similique itaque
+                    minus. Labore soluta ex aspernatur ipsam velit. Porro ipsam officiis maiores sapiente culpa quas
+                    tempore unde.
+                </p>
+            </section>
+
+            <section id="contact_us_container">
+                <div>
+                    <h2>Our Location</h2>
+                    <iframe id="location"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5789.837370008127!2d-80.52643528923494!3d43.4831673309201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1657853509711!5m2!1sen!2sca"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div id="quick_inquiry">
+                    <h2>Quick Inquiry</h2>
+
+                    <form id="inquiry_form">
+                        <label for="name">Name <span class="field_info">*</span></label> <br>
+                        <input name="name" id="name" type="text" class="form-control"><span class="error_info"></span>
+                        <br>
+
+                        <label for="email">Email <span class="field_info">*</span></label> <br>
+                        <input name="email" id="email" type="email" class="form-control"><span
+                            class="error_info"></span> <br>
+
+                        <label for="phone">Phone (optional)</label> <br>
+                        <input name="phone" id="phone" type="number" class="form-control"> <br>
+
+                        <label for="message">Your Message <span class="field_info">*</span></label> <br>
+                        <textarea name="message" id="message"></textarea><span class="error_info"></span>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="partners">
+                <h1>Certificates & Partners</h1>
+                <img src="./images/partners.png" alt="partners">
+            </section>
+
+            <hr class="divider">
+
+            <section id="get_in_touch">
+                <h1>GET IN TOUCH</h1>
+                <div id="contact_details">
+                    <div id="fax_section">
+                        <img src="./images/fax.png" alt="fax">
+                        <p><strong>Fax</strong></p>
+                        <p>234-567-8901</p>
+                    </div>
+                    <div id="phone_section">
+                        <img src="./images/phone.png" alt="phone">
+                        <p><strong>Phone</strong></p>
+                        <a href="tel:123456789">+1 (234) 567 8901</a>
+                    </div>
+                    <div id="email_section">
+                        <img src="./images/email.png" alt="email">
+                        <p><strong>Email</strong></p>
+                        <a href="mailto:travel.nepal@gmail.com">travel.nepal@gmail.com</a>
+                    </div>
+                    <div id="address_section">
+                        <img src="./images/address.png" alt="phone">
+                        <p><strong>Address</strong></p>
+                        <p>123 Test Street, Waterloo </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="copyright">
+                <div id="social_media">
+                    <h1>FIND US ON</h1>
+                    <div>
+                        <img src="./images/facebook.png" alt="facebook">
+                        <img src="./images/instagram.png" alt="instagram">
+                        <img src="./images/twitter.png" alt="twitter">
+                        <img src="./images/linkedin.png" alt="linkedin">
+                    </div>
+                </div>
+                <p id="copyright_text">Copyright &copy; Travel Nepal 2022</p>
+            </section>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

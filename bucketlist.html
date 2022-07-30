@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bucket List | Travel Nepal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!-- None of the codes were copied from the text book. I coded the script file from the scratch -->
+<body>
+    <div id="container">
+        <header>
+            <h3>Travel Nepal</h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./bucketlist.html">Bucket List</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+            </ul>
+            <span><a href="./aboutus.html#quick_inquiry">Inquiry About a Trip</a></span>
+        </nav>
+        <main>
+            <div class="breadcrumb">
+                <p>YOU ARE HERE: <a href="./index.html">HOME</a> > BUCKET LIST</p>
+            </div>
+            <button id="go_to_top" title="Go to top">^</button>
+
+            <section id="bucket_list_container">
+                <h1>Bucket Lists</h1>
+                <p class="description">Drop the description of things you want to do in Nepal, and we might help you
+                    achieve it!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae neque ad? Minima autem
+                    voluptatem consectetur delectus libero. Debitis reiciendis nam dicta, voluptatem quod reprehenderit
+                    vero eligendi laborum quaerat sit?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quo repellendus consectetur velit?
+                    Laboriosam fuga fugiat, dicta tempora soluta suscipit nihil. Dicta ipsum officia animi magni eveniet
+                    ratione maiores iusto.
+                </p>
+                <h1 class="recent_heading">Recent Bucket List</h1>
+                <div id="bucket_lists">
+                    <div class="bucket_list">
+                        <img src="./images/default_user.png" alt="Default Photo">
+                        <div class="content_wrapper">
+                            <p class="name"><strong>John Doe</strong></p>
+                            <p class="bucket_list_description">Head out on a jungle safari at Chitwan National Park
+                                where you'll see rhinos, elephants, birds and if you're lucky, the endangered Bengal
+                                tiger. </p>
+                            <p class="posted_date">Posted on: 2022-7-16</p>
+                        </div>
+                    </div>
+                    <div class="bucket_list">
+                        <img src="./images/default_user.png" alt="Default Photo">
+                        <div class="content_wrapper">
+                            <p class="name"><strong>Jane Cooper</strong></p>
+                            <p class="bucket_list_description">Take a flight over Mount Everest. If trekking isn't your
+                                thing, you can jump in a plane and soar past the peaks of the world's highest mountain
+                                range.</p>
+                            <p class="posted_date">Posted on: 2022-7-1</p>
+                        </div>
+                    </div>
+                    <div class="bucket_list">
+                        <img src="./images/default_user.png" alt="Default Photo">
+                        <div class="content_wrapper">
+                            <p class="name"><strong>Bhupesh Shrestha</strong></p>
+                            <p class="bucket_list_description">Trek the Annapurna Circuit which winds through some of
+                                the world's tallest mountains and diverse climate zones.</p>
+                            <p class="posted_date">Posted on: 2022-6-19</p>
+                        </div>
+                    </div>
+                    <div class="bucket_list">
+                        <img src="./images/default_user.png" alt="Default Photo">
+                        <div class="content_wrapper">
+                            <p class="name"><strong>Alice Potter</strong></p>
+                            <p class="bucket_list_description">Experience Tibetan culture and visit the Boudhanath
+                                Stupa, the oldest Tibetan Buddhist temple outside of Tibet.</p>
+                            <p class="posted_date">Posted on: 2022-5-16</p>
+                        </div>
+                    </div>
+                    <div class="bucket_list">
+                        <img src="./images/default_user.png" alt="Default Photo">
+                        <div class="content_wrapper">
+                            <p class="name"><strong>Julie Hamal</strong></p>
+                            <p class="bucket_list_description">Take a Scenic Flight Around the Himalayas!</p>
+                            <p class="posted_date">Posted on: 2022-3-16</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bucket_list_form_container">
+                <div class="bucket_list_wrapper">
+                    <h2>Let the World Know About Your Bucket List! </h2>
+                    <h2>Share Your Bucket List</h2>
+                    <form id="bucket_list_form">
+                        <input type="text" id="fullname" name="fullname" placeholder="Full Name"> <br>
+                        <input type="text" id="description" name="description"
+                            placeholder="Your Bucket List Description"> <br>
+                        <div class="checkbox_input">
+                            <input type="checkbox" name="post_anonymously" id="post_anonymously">
+                            <label for="post_anonymously">Post Anonymously</label> <br>
+                        </div>
+
+                        <div id="bucket_list_errors">
+
+                        </div>
+                        <button type="submit" id="bucket_list_submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="partners">
+                <h1>Certificates & Partners</h1>
+                <img src="./images/partners.png" alt="partners">
+            </section>
+
+            <hr class="divider">
+
+            <section id="get_in_touch">
+                <h1>GET IN TOUCH</h1>
+                <div id="contact_details">
+                    <div id="fax_section">
+                        <img src="./images/fax.png" alt="fax">
+                        <p><strong>Fax</strong></p>
+                        <p>234-567-8901</p>
+                    </div>
+                    <div id="phone_section">
+                        <img src="./images/phone.png" alt="phone">
+                        <p><strong>Phone</strong></p>
+                        <a href="tel:123456789">+1 (234) 567 8901</a>
+                    </div>
+                    <div id="email_section">
+                        <img src="./images/email.png" alt="email">
+                        <p><strong>Email</strong></p>
+                        <a href="mailto:travel.nepal@gmail.com">travel.nepal@gmail.com</a>
+                    </div>
+                    <div id="address_section">
+                        <img src="./images/address.png" alt="phone">
+                        <p><strong>Address</strong></p>
+                        <p>123 Test Street, Waterloo </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="copyright">
+                <div id="social_media">
+                    <h1>FIND US ON</h1>
+                    <div>
+                        <img src="./images/facebook.png" alt="facebook">
+                        <img src="./images/instagram.png" alt="instagram">
+                        <img src="./images/twitter.png" alt="twitter">
+                        <img src="./images/linkedin.png" alt="linkedin">
+                    </div>
+                </div>
+                <p id="copyright_text">Copyright &copy; Travel Nepal 2022</p>
+            </section>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

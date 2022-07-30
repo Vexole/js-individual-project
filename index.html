@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home | Travel Nepal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!-- None of the codes were copied from the text book. I coded the script file from the scratch -->
+<body>
+    <div id="container">
+        <header>
+            <h3>Travel Nepal</h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./bucketlist.html">Bucket List</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+            </ul>
+            <span><a href="./aboutus.html#quick_inquiry">Inquiry About a Trip</a></span>
+        </nav>
+        <main>
+            <div id="hero_banner">
+                <img class="active" src="./images/hero1.jpg" alt="hero banner 1">
+                <img src="./images/hero2.jpg" alt="hero banner 2">
+                <img src="./images/hero3.jpg" alt="hero banner 3">
+            </div>
+
+            <button id="go_to_top" title="Go to top">^</button>
+
+            <section id="top_destinations">
+                <h1>Top Destinations</h1>
+                <div class="destination">
+                    <img src="./images/tilicho-lake-trek.jpeg" alt="tilicho trek">
+                    <p class="center_text">Tilicho Trek</p>
+                    <div class="destination_description">
+                        <p class="header">Days</p>
+                        <p class="header">Cost</p>
+                        <p class="header">Difficulty</p>
+                        <p>8</p>
+                        <p>NRP 80000</p>
+                        <p>Hard</p>
+                    </div>
+                </div>
+
+                <div class="destination">
+                    <img src="./images/chisapani-hiking.jpeg" alt="chispani hiking">
+                    <p class="center_text">Chispani Hiking</p>
+                    <div class="destination_description">
+                        <p class="header">Days</p>
+                        <p class="header">Cost</p>
+                        <p class="header">Difficulty</p>
+                        <p>4</p>
+                        <p>NRP 30000</p>
+                        <p>Easy</p>
+                    </div>
+                </div>
+
+                <div class="destination">
+                    <img src="./images/everest-base-camp-trek.jpeg" alt="everest base camp trek">
+                    <p class="center_text">Everest Base Camp Trek</p>
+                    <div class="destination_description">
+                        <p class="header">Days</p>
+                        <p class="header">Cost</p>
+                        <p class="header">Difficulty</p>
+                        <p>16</p>
+                        <p>NRP 120000</p>
+                        <p>Hard</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="our_services">
+                <h1>Our Services</h1>
+                <div class="service">
+                    <img src="./images/adventure-icon.png" alt="">
+                    <p>Cultures & Adventures</p>
+                </div>
+
+                <div class="service">
+                    <img src="./images/departure-icon.png" alt="">
+                    <p>Booking Tours</p>
+                </div>
+
+                <div class="service">
+                    <img src="./images/contact-icon.png" alt="">
+                    <p>24hr Support Hotline</p>
+                </div>
+
+                <div class="service">
+                    <img src="./images/update-icon.png" alt="">
+                    <p>Reviews and Updates</p>
+                </div>
+            </section>
+
+            <section id="conversion_conversion">
+                <h1>Worried about currency conversion?</h1>
+                <p>We got your back! Get the most reliable conveter tools here and know prices in your currency.</p>
+                <form id="currency_converter">
+                    <label for="nepalese_rupees">NRP Rupees: </label>
+                    <input type="text" name="nepalese_rupees" id="nepalese_rupees" placeholder="Amount">
+                    <br><br>
+
+                    <label for="to_currency">Select your currency:</label>
+                    <select name="to_currency" id="to_currency">
+                        <option value="usd">USD</option>
+                        <option value="cad">CAD</option>
+                        <option value="inr">INR</option>
+                    </select>
+                    <br><br>
+                    <label for="to_amount">Equivalent Amount:</label>
+                    <input type="number" name="to_amount" id="to_amount" disabled>
+                    <br><br>
+
+                    <button type="submit" id="convert_currency">Convert</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section class="partners">
+                <h1>Certificates & Partners</h1>
+                <img src="./images/partners.png" alt="partners">
+            </section>
+
+            <hr class="divider">
+
+            <section id="get_in_touch">
+                <h1>GET IN TOUCH</h1>
+                <div id="contact_details">
+                    <div id="fax_section">
+                        <img src="./images/fax.png" alt="fax">
+                        <p><strong>Fax</strong></p>
+                        <p>234-567-8901</p>
+                    </div>
+                    <div id="phone_section">
+                        <img src="./images/phone.png" alt="phone">
+                        <p><strong>Phone</strong></p>
+                        <a href="tel:123456789">+1 (234) 567 8901</a>
+                    </div>
+                    <div id="email_section">
+                        <img src="./images/email.png" alt="email">
+                        <p><strong>Email</strong></p>
+                        <a href="mailto:travel.nepal@gmail.com">travel.nepal@gmail.com</a>
+                    </div>
+                    <div id="address_section">
+                        <img src="./images/address.png" alt="phone">
+                        <p><strong>Address</strong></p>
+                        <p>123 Test Street, Waterloo </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="copyright">
+                <div id="social_media">
+                    <h1>FIND US ON</h1>
+                    <div>
+                        <img src="./images/facebook.png" alt="facebook">
+                        <img src="./images/instagram.png" alt="instagram">
+                        <img src="./images/twitter.png" alt="twitter">
+                        <img src="./images/linkedin.png" alt="linkedin">
+                    </div>
+                </div>
+                <p id="copyright_text">Copyright &copy; Travel Nepal 2022</p>
+            </section>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

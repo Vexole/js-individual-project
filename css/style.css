@@ -1,0 +1,509 @@
+/*
+    Common CSS Styles
+*/
+body {
+    margin: 0 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header h3 {
+    margin: 0;
+    padding: 10px 25px;
+    color: black;
+    font-size: 48px;
+    font-family: cursive, monospace;
+    text-shadow: 2px 2px rgb(48, 47, 47);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3737b4;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5px 15px 5px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero_banner {
+    position: relative;
+    display: flex;
+}
+
+#hero_banner img {
+    width: 100%;
+    display: none;
+}
+
+#hero_banner img.active {
+    display: inline-block;
+}
+
+/* 
+    Footer Styling
+*/
+
+footer {
+    text-align: center;
+    background-color: #4343e9;
+    color: white;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.partners h1 {
+    width: 100%;
+    font-size: 2em;
+}
+
+.partners img {
+    width: 30%;
+    padding: 5px;
+}
+
+.divider {
+    width: 70%;
+    text-align: center;
+}
+
+#get_in_touch {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contact_details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+}
+
+#contact_details img {
+    width: 60px;
+}
+
+#contact_details #phone_section,
+#contact_details #fax_section,
+#contact_details #email_section,
+#contact_details #address_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #3737b4;
+    height: 200px;
+    margin: 0px 20px;
+    border: 2px solid rgb(226, 220, 220);
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
+#contact_details #fax_section p,
+#contact_details #address_section p{
+    padding: 0;
+    margin: 10px;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#copyright {
+    background-color: #3737b4;
+}
+
+#social_media {
+    flex: 3 0;
+    text-align: center;
+}
+
+#social_media p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#social_media div img {
+    width: 40px;
+    padding: 5px;
+}
+
+#copyright_text {
+    flex: 5 0;
+    text-align: center;
+}
+
+#go_to_top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+    opacity: 0.85;
+    text-align: center;
+}
+
+/* 
+    Breadcrumb Styling
+*/
+.breadcrumb {
+    background-color: aliceblue;
+}
+
+.breadcrumb p {
+    margin: 0;
+    padding: 10px 20px;
+    font-family: monospace;
+}
+
+.breadcrumb a {
+    color: #3737b4;
+}
+
+/* 
+    HomePage CSS Styles
+*/
+#top_destinations,
+#best_sellers {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#top_destinations h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.destination {
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.destination img {
+    width: 90%;
+}
+
+.center_text {
+    color: #3737b4;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.destination_description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 20px;
+}
+
+.destination_description p {
+    padding: 5px;
+    margin: 0;
+}
+
+.destination_description .header {
+    font-weight: bold;
+    color: #474749;
+    font-size: 18px;
+}
+
+#our_services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: aliceblue;
+    justify-items: center;
+    padding: 50px 200px 70px 200px;
+    margin-bottom: 48px;
+}
+
+#top_destinations h1,
+#our_services h1 {
+    grid-column: 1 / 5;
+    justify-self: center;
+    font-family: cursive;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service img {
+    width: 40px;
+    height: 40px;
+}
+
+.service p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#conversion_conversion {
+    padding-bottom: 38px;
+    border: 1px solid #3737b4;
+    background-color: snow;
+}
+
+#conversion_conversion h1 {
+    font-size: 38px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#conversion_conversion p {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#currency_converter {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#nepalese_rupees,
+#to_amount {
+    margin: 0 10px 0 10px;
+    width: 100px;
+    height: 30px;
+    display: inline;
+}
+
+#nepalese_rupees {
+    margin-left: 59px;
+}
+
+#to_currency {
+    margin: 0 10px 0 10px;
+    width: 110px;
+    height: 35px;
+    display: inline;
+}
+
+#to_amount {
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+/*
+    BUCKET LIST STYLING
+*/
+#bucket_list_container h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 38px;
+}
+
+#bucket_list_container .description {
+    text-align: center;
+}
+
+#bucket_list_container .recent_heading {
+    text-align: center;
+}
+
+#bucket_lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 310px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#bucket_lists img {
+    width: 80px;
+    align-self: center;
+    justify-self: center;
+}
+
+.bucket_list {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid #e3e3e3;
+    box-shadow: 1px 1px rgb(63, 62, 62);
+    height: 175px;
+    background-color: rgb(227 228 236);
+    border-radius: 10px;
+}
+
+.content_wrapper {
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+}
+
+.bucket_list .name {
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.bucket_list_description {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 12px;
+}
+
+.posted_date {
+    font-size: 10px;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    opacity: 0.8;
+    bottom: 2px;
+}
+
+.checkbox_input {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#post_anonymously {
+    width: 12px;
+    display: inline;
+}
+
+#bucket_list_form_container {
+    background-image: url('../images/bucket_list.jpg');
+    color: white;
+    padding: 50px 20px;
+    margin-top: 50px;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+}
+
+.bucket_list_wrapper {
+    background-color: rgba(66, 66, 187, 1);
+    width: 380px;
+    padding: 50px 0 50px 50px;
+}
+
+.bucket_list_wrapper h2 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+/* 
+    ABOUT US STYLES
+*/
+
+#aboutus_details_container h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 38px;
+}
+
+#aboutus_details_container p {
+    text-align: justify;
+}
+
+#contact_us_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    gap: 20px;
+}
+
+#location {
+    width: 100%;
+    height: 450px;
+    border:0;
+}
+
+#quick_inquiry {
+    border: 2px solid rgb(230, 224, 224);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+#contact_us_container h2 {
+    text-align: center;
+}
+
+label {
+    margin: 10px;
+}
+
+form .error_info {
+    display: block;
+    margin: 0 0 5px 10px;
+    color: red;
+}
+
+input,
+textarea,
+button {
+    margin: 0 10px 0 10px;
+    width: 300px;
+    height: 30px;
+    display: block;
+}
+
+textarea {
+    height: 100px;
+    display: block;
+}
+
+.field_info {
+    color: red;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+}
